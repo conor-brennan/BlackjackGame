@@ -1,0 +1,48 @@
+JFrame f=new JFrame();//creating instance of JFrame
+
+        JButton b=new JButton("click");//creating instance of JButton
+        b.setBounds(130,100,100, 40);//x axis, y axis, width, height
+
+        f.add(b);//adding button in JFrame
+
+        f.setSize(400,500);//400 width and 500 height
+        f.setLayout(null);//using no layout managers
+        f.setVisible(true);//making the frame visible
+
+
+
+
+System.out.println("\n1.");
+        Blackjack game = new Blackjack();
+        System.out.println("\n2.");
+        Blackjack game1 = new Blackjack();
+        System.out.println("\n3.");
+        Blackjack game2 = new Blackjack();
+        System.out.println("\n4.");
+        Blackjack game3 = new Blackjack();
+        System.out.println("\n5.");
+        Blackjack game4 = new Blackjack();
+        System.out.println("\n6.");
+        Blackjack game5 = new Blackjack();
+        System.out.println("\n7.");
+        Blackjack game6 = new Blackjack();
+        System.out.println("\n8.");
+        Blackjack game7 = new Blackjack();
+        System.out.println("\n9.");
+        Blackjack game8 = new Blackjack();
+        System.out.println("\n10.");
+        Blackjack game9 = new Blackjack();
+
+
+
+
+100,800 - 280,720 = hit
+400,800 - 580,720 = stay
+310,780 - 370,740 = points
+
+100,700 - 580,500 = cards
+
+100,120 - 330,050 = record
+
+350,080 - 580,050 = dealer score
+350,120 - 580,090 = dealer cards
